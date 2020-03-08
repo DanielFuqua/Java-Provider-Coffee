@@ -6,7 +6,7 @@ const contactInfo = [
     },
     {
         id: 2,
-        info: "6145874456",
+        info: "(614)587-4456",
         infoType: "phone number"
     },
     {
