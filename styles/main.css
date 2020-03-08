@@ -1,0 +1,28 @@
+.container__footer {
+    display: flex;
+}
+
+section {
+    display: flex;
+}
+
+.container__employee, .container__product, .container__equipment {
+border: 1px solid black;
+flex-wrap: wrap;
+}
+
+.container__product {
+
+}
+
+.container__equipment {
+
+}
+
+article {
+    border: .5px dotted black;
+}
+
+h2 {
+    flex-basis: 100%;
+}
