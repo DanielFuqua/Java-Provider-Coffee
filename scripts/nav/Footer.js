@@ -7,8 +7,10 @@ export const Footer = () => {
     const businessHTML = BusinessName
 
     contentTarget.innerHTML = `
-    <div>${ContactList()}</div>
-    <div>${BusinessName()}</div>
-    <div>${YearEstablished()}</div>
+    <section class="contactInfo">
+        <div><p>Contact Info</p>
+        </div>${ContactList()}</section>
+    <section>${BusinessName()}</section>
+    <section>${YearEstablished()}</section>
     `
 }

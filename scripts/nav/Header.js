@@ -7,7 +7,7 @@ export const Header = () => {
 
     contentTarget.innerHTML = `
 
-    <div>${BusinessName()}</div>
+    <h1>${BusinessName()}</h1>
   
     `
 }

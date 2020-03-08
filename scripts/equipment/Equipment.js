@@ -5,7 +5,7 @@ export const Equipment = (equipmentObject) => {
         <div>Serial Number: ${equipmentObject.serialNumber}</div>
         <div>Model: ${equipmentObject.model}</div>
         <div>Functional: ${equipmentObject.isFunctional}</div>
-        <div>Under Warranty: ${equipmentObject.isUnderWarrnty}</div>
+        <div>Under Warranty: ${equipmentObject.isUnderWarranty}</div>
     </article>
     `
 }
